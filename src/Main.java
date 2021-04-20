@@ -3,9 +3,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    static KhoiThi khoiA = new KhoiThi("toan", "li","hoa");
-    static KhoiThi khoiB = new KhoiThi("toan", "hoa","sinh");
-    static KhoiThi khoiC = new KhoiThi("van", "su","dia");
+    static KhoiThi khoiA = new KhoiThi("Toán", "Lí","Hóa");
+    static KhoiThi khoiB = new KhoiThi("Toán", "Hóa","Sinh");
+    static KhoiThi khoiC = new KhoiThi("Văn", "Sử ","Địa");
     public static void main(String[] args) {
         List<Candidates> candidatesList = new ArrayList<>();
         Manager manager = new Manager(candidatesList);

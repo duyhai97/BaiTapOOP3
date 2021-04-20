@@ -11,7 +11,7 @@ public class KhoiThi {
 
     @Override
     public String toString() {
-        return "KhoiThi{" +
+        return "Khối thi: {" +
                 "m1='" + m1 + '\'' +
                 ", m2='" + m2 + '\'' +
                 ", m3='" + m3 + '\'' +

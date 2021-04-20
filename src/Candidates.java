@@ -12,10 +12,9 @@ public class Candidates {
                 ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 ", prioritize='" + prioritize + '\'' +
-                ", khoiThi=" + getKhoiThi(khoiThi) +
+                ", " + getKhoiThi(khoiThi) +
                 '}';
     }
-
 
     public KhoiThi getKhoiThi(KhoiThi khoithi) {
         return khoiThi;
